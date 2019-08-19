@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <data>
+    <elokuva>
+        <nimi>The Silence of the Lambs</nimi>
+        <ohjaaja>Robert Jonathan Demme</ohjaaja>
+        <julkaisuvuosi>1991</julkaisuvuosi>
+        <genre>Crime, Drama, Thriller</genre>
+        <ikäraja>18</ikäraja>
+        <elokuvan_pituus>1h 58min</elokuvan_pituus>
+    </elokuva>
+    <elokuva>
+        <nimi>Evil Dead 2: Dead by Dawn</nimi>
+        <ohjaaja>Sam Raimi</ohjaaja>
+        <julkaisuvuosi>1987</julkaisuvuosi>
+        <genre>Comedy, Horror</genre>
+        <ikäraja>18</ikäraja>
+        <elokuvan_pituus>1h 24min</elokuvan_pituus>
+    </elokuva>
+    <elokuva>
+        <nimi>War on Everyone</nimi>
+        <ohjaaja>John Michael McDonagh</ohjaaja>
+        <julkaisuvuosi>2016</julkaisuvuosi>
+        <genre>Crime, Comedy</genre>
+        <ikäraja>16</ikäraja>
+        <elokuvan_pituus>1h 38min</elokuvan_pituus>
+    </elokuva>
+    <elokuva>
+        <nimi>Beerfest</nimi>
+        <ohjaaja>Jay Chandrasekhar</ohjaaja>
+        <julkaisuvuosi>2006</julkaisuvuosi>
+        <genre>Comedy</genre>
+        <ikäraja>17</ikäraja>
+        <elokuvan_pituus>1h 50min</elokuvan_pituus>
+    </elokuva>
+    <elokuva>
+        <nimi>Lock, Stock and Two Smoking Barrels</nimi>
+        <ohjaaja>Guy Ritchie</ohjaaja>
+        <julkaisuvuosi>1998</julkaisuvuosi>
+        <genre> Comedy, Crime</genre>
+        <ikäraja>18</ikäraja>
+        <elokuvan_pituus>1h 47min</elokuvan_pituus>
+    </elokuva>
+    <elokuva>
+        <nimi>RocknRolla</nimi>
+        <ohjaaja>Guy Ritchie</ohjaaja>
+        <julkaisuvuosi>2008</julkaisuvuosi>
+        <genre> Action, Crime, Thriller </genre>
+        <ikäraja>15</ikäraja>
+        <elokuvan_pituus>1h 54min</elokuvan_pituus>
+    </elokuva>
+  </data>
