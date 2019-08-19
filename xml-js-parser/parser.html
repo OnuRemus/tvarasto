@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tietokanta</title>
+    <link rel="stylesheet" href="tv.css">
+</head>
+<body>
+    <h1>XML - parser</h1>
+    <br><br>
+    <table id="elokuvat"></table>
+    <br><br>
+    <button onclick="loadXML()">Lataa XML</button>
+    <script>
+        function loadXML(){
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       parser1(this);
+       }
+};
+xhttp.open("GET", "tv.xml", true);
+xhttp.send();
+        }
+        function parser1(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Nimi</th><th>Ohjaaja</th><th>Julkaisuvuosi</th><th>Genre</th><th>Ikäraja</th><th>Pituus</th></tr>";
+  var x = xmlDoc.getElementsByTagName("elokuva");
+
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("nimi")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+            
+    x[i].getElementsByTagName("ohjaaja")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+            
+    x[i].getElementsByTagName("julkaisuvuosi")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+            
+    x[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+            
+    x[i].getElementsByTagName("ikäraja")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("elokuvan_pituus")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("elokuvat").innerHTML = table;
+}
+    </script>
+</body>
+</html>
