@@ -1,9 +1,9 @@
 elokuva {
     display: block;
     margin: 20px;
-    border: 1px soild rgb(10, 2, 82);
+    border: 2px soild rgb(10, 2, 82);
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(161, 161, 161);
 }
 
 nimi {
